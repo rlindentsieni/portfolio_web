@@ -1,4 +1,5 @@
 
+body{background-color:#F7D4F6;}
 
 .home-content-contact {
     height: 100%;
@@ -6,8 +7,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F7D4F6;
     
+    
+}
+
+.navigation-bar{background-color:#F7D4F6;
+    box-shadow: none;
 }
 
 

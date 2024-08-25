@@ -1,3 +1,6 @@
+body{background-color:#F7D4F6;}
+
+
 .home-content-skills {
     height: 100%;
     display: flex;
@@ -5,6 +8,10 @@
     justify-content: center;
     align-items: flex-end;
 }
+.navigation-bar{background-color:#F7D4F6;
+box-shadow: none;}
+
+
 .cards{
     display: flex;
     flex-wrap: wrap;
