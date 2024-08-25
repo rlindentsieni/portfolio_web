@@ -1,0 +1,57 @@
+.home-content-project {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card{
+    width: max-content;
+    background-color: rgb(208, 158, 255);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card:nth-child(2){
+    background-color: rgb(255, 158, 210);
+}
+
+.card:nth-child(3){
+    background-color: rgb(176, 255, 158);
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.stack{
+    display: flex;
+}
+
+.stack p{
+    padding: 5px 1rem;
+    background-color: green;
+    color: white;
+}
+
+.stack p:nth-child(2){
+    background-color: blue;
+    margin-left: 1rem;
+}
+
+.descr{
+    margin: 0.5rem 0px;
+}
