@@ -53,6 +53,11 @@
     margin-left: 1rem;
 }
 
+.stack p:nth-child(3){
+    background-color: #B2006B;
+    margin-left: 1rem;
+}
+
 .descr{
     margin: 0.5rem 0px;
 }
