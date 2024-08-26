@@ -17,8 +17,9 @@ body{background-color:#F7D4F6;}
 
 
 
-.welcome-text{margin-bottom: 0;
-    justify-content: end;
+.welcome-text, .descr{
+    margin-bottom: 0;
+    align-self: flex-end;
 }
 
 .home-content-contact p{text-align: end;}

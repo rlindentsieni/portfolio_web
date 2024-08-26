@@ -13,18 +13,25 @@ box-shadow: none;}
 
 
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
+    grid-row-gap: 1.75rem;
+
 }
 .card{
-    width: max-content;
     background-color: rgb(208, 158, 255);
-    padding: 2rem 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .card:nth-child(2){
