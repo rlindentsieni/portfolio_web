@@ -1,4 +1,4 @@
-body{background-color:#F7D4F6;}
+/* body{background-color:#F7D4F6;} */
 
 
 .home-content-skills {
@@ -8,8 +8,8 @@ body{background-color:#F7D4F6;}
     justify-content: center;
     align-items: flex-end;
 }
-.navigation-bar{background-color:#F7D4F6;
-box-shadow: none;}
+/* .navigation-bar{background-color:#F7D4F6;
+box-shadow: none;} */
 
 
 .cards{
@@ -31,6 +31,7 @@ box-shadow: none;}
     height: 200px;
     justify-content: center;
     align-items: center;
+    border: #FF0099 solid 1px;
     
 }
 
