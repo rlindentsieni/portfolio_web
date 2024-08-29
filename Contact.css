@@ -44,19 +44,29 @@ body{background-color:#F7D4F6;}
     margin-top: 1rem;
 }
 
-.form-section input{width: 320px;
+.form-section input{width: 100%;
 padding: 10px 15px;
-margin-top: 1rem;}
+margin-top: 1rem;
+border-radius: 0.4rem;}
 
 
 .form-section button{padding: 5px 2rem;
     font-size: 1rem;
-    margin-left: 14rem;
     cursor: pointer;
     background-color:#FF0099;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.4rem;
     margin-top: 2rem;
+    width: 100%;
     
 }
+
+.form-section textarea{width: 100%;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+    height: 150px;
+    resize: none;
+    margin-top: 1rem;}
