@@ -254,6 +254,11 @@ section>h1{
     margin: 1rem 0;
 }
 
+@media screen and (max-width : 600px)
+{
+    
+}
+
 @keyframes animatetxt{
     3%{
         left: 0;
