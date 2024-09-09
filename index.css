@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 *{
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+
+
+
 /* Step 1: Common Properties
   These styles are required to make icons render reliably */
   .icon::before {
@@ -34,30 +38,7 @@ ul{
     height: 100%;
 }
 
-.txt-content{
-    display: flex;
-    width: 100%;
-}
 
-.normal-txt{
-    font-size: 3.5rem;
-    width: 15%;
-}
-
-.change-txt{
-    font-size: 1rem;
-    color:rgb(255, 52, 184) ;
-    font-weight: 600;
-    position: relative;
-}
-.txt-content .change-txt ::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    
-    animation: animatetxt 5s steps(25) infinite;
-}
 
 /* Social icons */
 .social-icons{
@@ -212,7 +193,7 @@ section>h1{
     margin-bottom: 2rem;
 }
 .footer-ls>li>a>span{
-    padding: 2px;
+    padding: 1px;
     background-color: white;
     color: black;
     margin-right: 1rem;
