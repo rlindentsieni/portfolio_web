@@ -29,7 +29,7 @@ ul{
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
-    height: 90vh;
+    height: 130vh;
 }
 
 .welcome{
@@ -150,9 +150,20 @@ hr {
 
 
 .home-buttons{
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: center;
     
+}
+
+.get-intouch{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #F7D4F6;
+    padding: 6rem 6rem;
+    /* border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem; */
+    
+
 }
 
 .hire{
