@@ -158,7 +158,7 @@ hr {
 .get-intouch{
     margin-top: 1rem;
     text-align: center;
-    background-color: #F7D4F6;
+    background-color: #f8e9f7;
     padding: 6rem 6rem;
     /* border-top-left-radius: 5rem;
     border-top-right-radius: 5rem; */
@@ -220,12 +220,30 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     align-items: center;
     margin: 0 1rem;
 
 
 }
 
+.s-card:nth-child(1):hover{
+    box-shadow: 1px 1px 5px rgb(79, 249, 79);
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
+
+.s-card:nth-child(2):hover{
+    box-shadow: 1px 1px 5px rgb(113, 208, 246);
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
+
+.s-card:nth-child(3):hover{
+    box-shadow: 1px 1px 5px rgb(106, 106, 252);
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
 
 footer{
     
