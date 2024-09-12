@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    margin: 4rem;
 }
 
 .cards{
@@ -23,6 +24,14 @@
     width: 265px;
     grid-gap: 1rem;
 }
+
+.card:hover{
+    box-shadow: 1px 1px 5px rgb(106, 106, 252);
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+
+}
+
 
 .card:nth-child(2){
     background-color: rgb(255, 158, 210);
