@@ -31,7 +31,7 @@
 
 .card:hover{
     box-shadow: 1px 1px 5px rgb(106, 106, 252);
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     transition-duration: 1s;
 
 }
