@@ -19,10 +19,20 @@
 .card{
     width: 900px;
     /* background-color: #F7D4F6; */
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     display: flex;
     flex-direction: column;
     border-radius: 4px;
     border: #44373f solid 1px;
     margin-top: 25px;
+    box-shadow: 1px 1px 5px grey;
+    
 }
+
+.card:hover{
+    box-shadow: 1px 1px 5px rgb(106, 106, 252);
+    transform: scale(1.2);
+    transition-duration: 1s;
+
+}
+
