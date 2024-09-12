@@ -6,6 +6,9 @@
 
 .about-me-paragraph {
   margin-left: 3rem;
+  width: 50%;
+  text-align: center;
+ 
 }
 .about-me-paragraph p {
   font-size: 1rem;
@@ -33,3 +36,45 @@
     align-self: center;
 }
 
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  grid-row-gap: 1.75rem;
+
+}
+.card{
+  background-color: rgb(208, 158, 255);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  border: #FF0099 solid 1px;
+  
+}
+
+.card:nth-child(2){
+  background-color: rgb(255, 158, 210);
+}
+
+.card:nth-child(3){
+  background-color: rgb(176, 255, 158);
+}
+
+.card:nth-child(6){
+  background-color: rgb(255, 158, 210);
+}
+
+.card:nth-child(4){
+  background-color: rgb(176, 255, 158);
+}
+
+.card:nth-child(5){
+  background-color: rgb(208, 158, 255);
+}
