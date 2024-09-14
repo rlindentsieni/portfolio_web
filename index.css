@@ -326,3 +326,9 @@ section>h1{
     }
 
 }
+
+/* Particle Js */
+.particles{
+    position: absolute;
+    z-index: -1;
+}
