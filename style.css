@@ -62,12 +62,10 @@ body{
 .social-links li p{
     display: none;
 }
-
+/* 
 .social-links li:hover{
     /* justify-content: flex-start; */
-    width: 200px;
-    background-color: #ffffff;
-}
+    /* width: 200px; */
 
 /* Remove style from all uls */
 ul{
