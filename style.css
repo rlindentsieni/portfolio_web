@@ -198,13 +198,56 @@ nav > h1{
 }
 
 .picture{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     grid-area: picture;
-    /* position: relative; */
     padding: 0px;
-    background: url(./assets/i13.png) right / contain no-repeat;
+    /* background: url(./assets/rilinde-ntsieni\ image.jpg) center / contain no-repeat; */
     /* border: 2px dashed #1C3342; */
-   
+    max-height: 40rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.w-image{
+    flex: 1;
+    width: 100%;
+    height: 40%;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+}
+
+.weather{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#temp{
+    font-size: 4rem;
+}
+
+#describe{
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+.bounds{
+    display: flex;
+    justify-content: space-between;
+}
+
+#location{
+    display: block;
 }
 
 
@@ -265,6 +308,13 @@ nav > h1{
 }
 
 /* Header buttons */
+.hire{
+    background-color: #fd009c !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+    
+
 .buttons{
     margin-top: 60px;
 }
@@ -273,9 +323,9 @@ nav > h1{
     
     background-color: var(--secondary);
     color: var(--surface);
-    padding: 8px 50px;
+    padding: 8px 1rem;
     border-radius: 20px;
-    font-weight: 300;
+    font-weight:700;
 }
 
 .buttons > a > i{
@@ -744,7 +794,7 @@ footer{
 
     .header-content{
         padding-top: 20px;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
 
@@ -858,7 +908,7 @@ footer{
     
     .header-content{
         
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         
     }
 
@@ -979,11 +1029,10 @@ footer{
         letter-spacing: 1px;
     }
     
-    .picture{
+    /* .picture{
         background-position: center;
-        /* border: 1px solid #1C3342; */
         margin-top: 50px;
-    }
+    } */
 
     .intro h1{
         font-size: 2.4rem;
@@ -1043,7 +1092,6 @@ footer{
 
 
 
-    
 
 
 /* 
