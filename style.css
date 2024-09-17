@@ -1063,7 +1063,7 @@ footer{
 }
 
 .about-me-paragraph{
-    /* height: 60vh; */
+    /* height: 80vh; */
     display: flex;
     flex-direction: row;
     gap: 2rem;
