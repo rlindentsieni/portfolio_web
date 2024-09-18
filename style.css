@@ -1070,6 +1070,16 @@ footer{
     flex-wrap: wrap;
     padding: 4rem;
 }
+
+.paragraph{text-align: justify;
+background-color: #f5c0ec;
+padding: 2rem 2rem;
+font-weight: lighter;}
+
+.big-text{color: #a30c91;
+font-weight: bold;
+font-size: 1.2rem;}
+
 .about-me-paragraph .image{
     text-align: center;
     flex: 1 1 35rem;
