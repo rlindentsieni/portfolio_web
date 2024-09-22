@@ -30,10 +30,10 @@
   </head>
   <body>
     <ul class="social-links">
-      <li><p>GitHub</p><a href="https://github.com/rlindentsieni
+      <li><p>GitHub</p><a target="_blank" href="https://github.com/rlindentsieni
         " rel=""><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-      <li><a href="https://linkedin.com/in/rilinde-ntsieni" rel=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-      <li><a href="https://web.facebook.com/" rel=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+      <li><a target="_blank" href="https://linkedin.com/in/rilinde-ntsieni" rel=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+      <li><a target="_blank" href="https://web.facebook.com/" rel=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
     </ul>
     
     <header id="header" class="header-wrapper">
@@ -62,7 +62,7 @@
             <h1>I'M RILINDE NTSIENI</h1>
             <p class="job-tittle">SOFTWARE DEVELOPER/ENGINEER</p>
             <div class="buttons">
-              <!-- <a href="#">Hire Me</a> -->
+              <a class="hire" href="Contact.html">Hire Me</a>
               <a href="Rilinde-Ntsieni-CV.pdf" download="Rilinde Ntsieni"
                 ><i class="fa fa-download" aria-hidden="true"></i> Download My
                 Resume</a
@@ -70,15 +70,45 @@
             </div>
             
           </div>
-          <div class="picture"></div>
+          <div class="picture">
+            <img src="./assets/weather1.avif" class="w-image">
+            <div class="weather">
+              <!-- <h3>What's the weather like?</h3> -->
+              <div id="weather">
+                <h3 id="location"></h3>
+                <p id="temp"></p>
+                <p id="describe"></p>
+                <div class="bounds">
+                  <p id="H"></p>
+                  <p id="L"></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="right-side"></div>
+        <!-- <div class="right-side"> -->
+
+        </div>
       </div>
     </header>
+    <!-- <div id="googleMap" style="width:100%;height:400px;"></div> -->
     <footer>
       Designed and Developed with <i class="fa fa-heart" aria-hidden="true"></i> by Rilinde Ntsieni
     </footer>
     <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    
+    <!-- <script>
+      function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script> -->
+      
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5L3mCo99uEUheESHANsGV6vuVywjIfv4&callback=initMap"></script>
+      <!-- <script src="env.js"></script> -->
   </body>
 </html>
